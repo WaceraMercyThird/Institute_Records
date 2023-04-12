@@ -1,6 +1,6 @@
 @using InstituteWebApp.Data.Models
 
-@model List<StudentsModels>
+@model List<StudentsModels> 
 
 
 
@@ -38,24 +38,20 @@
                         </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>student.Name</td>
-                                <td>student.Age</td>
-                                <td>student.ClassRoom</td>
-                                <td>student.Grades</td>
+                           
+                            @foreach(var student in Model){
+                                <tr>
+                                    <td>@student.Name</td>
+                                    <td>@student.Age</td>
+                                    <td>@student.ClassRoom</td>
+                                    <td>@student.Grades</td>
 
-                            </tr>
+                                </tr>
+                            }
 
-                            @foreach (var student in Model) 
-                        { 
-                            <tr> 
-                               <td>@student.Name</td> 
-                                <td>@student.Age</td>
-                                <td>@student.ClassRoom</td>
-                                <td>@student.Grades</td>
-                             
-                            </tr> 
-                         } 
+                        
+                           
+                         
 
                         </tbody>
                     </table>

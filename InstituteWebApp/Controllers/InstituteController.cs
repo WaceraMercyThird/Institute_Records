@@ -12,45 +12,30 @@ namespace InstituteWebApp.Controllers
     public class InstituteController : Controller
     {
         Uri baseAddress = new Uri("https://localhost:7183/api/");
-        
+
         private readonly HttpClient _client;
         private readonly ILogger<StudentsModels> _logger;
-        private readonly ApplicationDbContext _context;
+        
 
-        public InstituteController(ApplicationDbContext context, ILogger<StudentsModels> logger)
+        public InstituteController(ILogger<StudentsModels> logger)
         {
-            _context = context;
+            
             _client = new HttpClient();
             _client.BaseAddress = baseAddress;
             _logger = logger;
         }
 
-       
+
 
         // GET
-       
-        public IActionResult InstituteView()
-        {
-            try
-            {
-                return View("InstituteView");
-            }
-            catch (Exception e)
-            {
-                _logger.LogError(e.Message);
-                throw;
-            }
-            
-
-        }
-
         [HttpGet]
-        public List<StudentsModels> GetRecords()
+        public async Task<IActionResult> InstituteView()
         {
+            List<StudentsModels> studentsList = new List<StudentsModels>();
+
             try
             {
-                List<StudentsModels> studentsList = new List<StudentsModels>();
-                HttpResponseMessage response = _client.GetAsync(_client.BaseAddress + "/api/Students/ GetStudents").Result;
+                HttpResponseMessage response = await _client.GetAsync(_client.BaseAddress + "Students/GetStudents");
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -61,17 +46,21 @@ namespace InstituteWebApp.Controllers
 
                 }
 
-                return studentsList;
-
+                return View(studentsList);
             }
             catch (Exception e)
             {
                 _logger.LogError(e.Message);
                 throw;
+               
             }
+
+
         }
 
-       
+
     }
+
+
 }
 
