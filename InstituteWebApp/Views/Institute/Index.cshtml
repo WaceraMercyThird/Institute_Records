@@ -1,4 +1,8 @@
+@using InstituteWebApp.Data.Models
+
 @model List<StudentsModels>
+
+
 
 @{
     ViewData["Title"] = "Institute Records";
@@ -42,7 +46,7 @@
 
                             </tr>
 
-                            @foreach (var student in model) 
+                            @foreach (var student in Model) 
                         { 
                             <tr> 
                                <td>@student.Name</td> 

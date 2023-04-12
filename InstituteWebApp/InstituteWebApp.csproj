@@ -9,7 +9,7 @@
     <ItemGroup>
       <Content Remove="Views\Institute\Institute.cshtml" />
       <Content Remove="Views\Home\InstituteRecord.cshtml" />
-      <Content Remove="Views\Institute\InstituteView.cshtml" />
+      <Content Remove="Views\Institute\Index.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
@@ -31,6 +31,10 @@
       </PackageReference>
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.5" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Serilog" Version="3.0.0-dev-01958" />
+      <PackageReference Include="Serilog.Extensions.Hosting" Version="5.1.0-dev-00123" />
+      <PackageReference Include="Serilog.Extensions.Logging" Version="3.1.1-dev-10338" />
+      <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00947" />
       <PackageReference Include="Wonde.NET" Version="1.0.8" />
     </ItemGroup>
 
