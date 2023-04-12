@@ -10867,11 +10867,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mwacera\\RiderProjects\\Institute_Web_App\\Institute_Records\\Records\\InstituteWebApp\\InstituteWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\mwacera\\Documents\\Workspace\\Practice\\InstituteWeb.U.I\\InstituteWebApp\\InstituteWebApp\\InstituteWebApp.csproj",
       "projectName": "InstituteWebApp",
-      "projectPath": "C:\\Users\\mwacera\\RiderProjects\\Institute_Web_App\\Institute_Records\\Records\\InstituteWebApp\\InstituteWebApp.csproj",
+      "projectPath": "C:\\Users\\mwacera\\Documents\\Workspace\\Practice\\InstituteWeb.U.I\\InstituteWebApp\\InstituteWebApp\\InstituteWebApp.csproj",
       "packagesPath": "C:\\Users\\mwacera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mwacera\\RiderProjects\\Institute_Web_App\\Institute_Records\\Records\\InstituteWebApp\\obj\\",
+      "outputPath": "C:\\Users\\mwacera\\Documents\\Workspace\\Practice\\InstituteWeb.U.I\\InstituteWebApp\\InstituteWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

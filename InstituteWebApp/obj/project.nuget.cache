@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0up+lOauQ+Zl69Sa6wqQA6Wde45y7z1SLn2lP1Oghj80szO0HtMeC2GKO0oJe3rLZBfQ9TLNwBvsLIDiHwFiXg==",
+  "dgSpecHash": "pmx7wMc+MKg0EnumHL9tOmwhB1q+guNthosz3IZZ8Bi5aKk/4O/Be6SpJbRLClkNZCPyoXgV3BmOfS5UtKOK9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mwacera\\RiderProjects\\Institute_Web_App\\Institute_Records\\Records\\InstituteWebApp\\InstituteWebApp.csproj",
+  "projectFilePath": "C:\\Users\\mwacera\\Documents\\Workspace\\Practice\\InstituteWeb.U.I\\InstituteWebApp\\InstituteWebApp\\InstituteWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mwacera\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mwacera\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
