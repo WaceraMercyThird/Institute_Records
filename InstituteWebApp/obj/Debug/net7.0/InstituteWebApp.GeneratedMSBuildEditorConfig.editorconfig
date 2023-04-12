@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InstituteWebApp
 build_property.RootNamespace = InstituteWebApp
-build_property.ProjectDir = C:\Users\mwacera\Documents\Workspace\Practice\InstituteWeb.U.I\InstituteWebApp\InstituteWebApp\
+build_property.ProjectDir = C:\Users\mwacera\RiderProjects\Institute_Web_App\Institute_Records\Records\InstituteWebApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mwacera\Documents\Workspace\Practice\InstituteWeb.U.I\InstituteWebApp\InstituteWebApp
+build_property.MSBuildProjectDirectory = C:\Users\mwacera\RiderProjects\Institute_Web_App\Institute_Records\Records\InstituteWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mwacera/Documents/Workspace/Practice/InstituteWeb.U.I/InstituteWebApp/InstituteWebApp/Views/Home/Index.cshtml]
+[C:/Users/mwacera/RiderProjects/Institute_Web_App/Institute_Records/Records/InstituteWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mwacera/Documents/Workspace/Practice/InstituteWeb.U.I/InstituteWebApp/InstituteWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/mwacera/RiderProjects/Institute_Web_App/Institute_Records/Records/InstituteWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mwacera/Documents/Workspace/Practice/InstituteWeb.U.I/InstituteWebApp/InstituteWebApp/Views/Institute/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRlXEluZGV4LmNzaHRtbA==
+[C:/Users/mwacera/RiderProjects/Institute_Web_App/Institute_Records/Records/InstituteWebApp/Views/Institute/InstituteView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRlXEluc3RpdHV0ZVZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mwacera/Documents/Workspace/Practice/InstituteWeb.U.I/InstituteWebApp/InstituteWebApp/Views/Shared/Error.cshtml]
+[C:/Users/mwacera/RiderProjects/Institute_Web_App/Institute_Records/Records/InstituteWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mwacera/Documents/Workspace/Practice/InstituteWeb.U.I/InstituteWebApp/InstituteWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mwacera/RiderProjects/Institute_Web_App/Institute_Records/Records/InstituteWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mwacera/Documents/Workspace/Practice/InstituteWeb.U.I/InstituteWebApp/InstituteWebApp/Views/_ViewImports.cshtml]
+[C:/Users/mwacera/RiderProjects/Institute_Web_App/Institute_Records/Records/InstituteWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mwacera/Documents/Workspace/Practice/InstituteWeb.U.I/InstituteWebApp/InstituteWebApp/Views/_ViewStart.cshtml]
+[C:/Users/mwacera/RiderProjects/Institute_Web_App/Institute_Records/Records/InstituteWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mwacera/Documents/Workspace/Practice/InstituteWeb.U.I/InstituteWebApp/InstituteWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/mwacera/RiderProjects/Institute_Web_App/Institute_Records/Records/InstituteWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xxmrv3mlw9

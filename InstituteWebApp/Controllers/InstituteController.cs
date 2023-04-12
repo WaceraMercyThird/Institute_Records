@@ -1,3 +1,4 @@
+#nullable disable
 using System.Net.Http.Headers;
 using InstituteWebApp.Data.Models;
 using InstituteWebApp.Models;
@@ -10,23 +11,41 @@ namespace InstituteWebApp.Controllers
 {
     public class InstituteController : Controller
     {
-        Uri baseAddress = new Uri("https://localhost:44383/api/");
+        Uri baseAddress = new Uri("https://localhost:7183/api/");
         
         private readonly HttpClient _client;
+        private readonly ILogger<StudentsModels> _logger;
         private readonly ApplicationDbContext _context;
 
-        public InstituteController(ApplicationDbContext context)
+        public InstituteController(ApplicationDbContext context, ILogger<StudentsModels> logger)
         {
             _context = context;
             _client = new HttpClient();
             _client.BaseAddress = baseAddress;
+            _logger = logger;
         }
 
        
 
         // GET
-        [HttpGet]
+       
         public IActionResult InstituteView()
+        {
+            try
+            {
+                return View("InstituteView");
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+                throw;
+            }
+            
+
+        }
+
+        [HttpGet]
+        public List<StudentsModels> GetRecords()
         {
             try
             {
@@ -42,15 +61,14 @@ namespace InstituteWebApp.Controllers
 
                 }
 
-                return View(studentsList);
+                return studentsList;
 
             }
             catch (Exception e)
             {
-                Console.Error.WriteLine(e.Message);
+                _logger.LogError(e.Message);
                 throw;
             }
-           
         }
 
        
